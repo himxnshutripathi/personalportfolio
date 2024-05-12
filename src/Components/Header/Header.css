@@ -105,6 +105,7 @@
     .header-contents{
         gap: 0.1vw;
         margin-top: 15%;
+        width: 100%;
     }
 
     .header-contents button{
