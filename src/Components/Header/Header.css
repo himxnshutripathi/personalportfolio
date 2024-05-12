@@ -113,7 +113,7 @@
     }
 }
 
-@media (max-width:370px){
+@media (max-width:450px){
     .header{
         background-size: cover;
         height: 66vw;
