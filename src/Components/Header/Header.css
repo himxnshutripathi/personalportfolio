@@ -4,6 +4,7 @@
     height: 34vw;
     background: url(/public/header_img.png) no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -117,7 +118,6 @@
         background-size: cover;
         height: 66vw;
         margin-bottom: 20px;
-        background-position: center;
     }
 
     .header-contents{
