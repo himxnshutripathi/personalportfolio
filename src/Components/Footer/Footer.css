@@ -91,6 +91,7 @@
 @media(max-width:370px){
     .footer{
         margin-top: 20px;
+        padding: 20px 5vh;
     }
     .footer-content-left img{
         width: 10%;
