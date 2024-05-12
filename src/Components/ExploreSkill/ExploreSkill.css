@@ -35,21 +35,13 @@
 }
 
 @media(max-width:750px){
-    .explore-skill-list-item img{
-        width: 30px;
-    }
-}
-
-@media(max-width:370px){
     .explore-skill{
         margin-top: 10px;
-    }
-    .explore-skill-list-item img{
-        width: 25px;
-    }
-    .explore-skill{
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+    .explore-skill-list-item img{
+        width: 30px;
     }
     .explore-skill-list-item p{
         font-size: 8px;
