@@ -51,4 +51,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .explore-skill-list-item p{
+        font-size: 8px;
+    }
 }
