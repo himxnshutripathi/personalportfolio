@@ -119,6 +119,7 @@
         height: 66vw;
         margin-bottom: 20px;
         background-position: center;
+        border-radius: 20px;
     }
 
     .header-contents{
