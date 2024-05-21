@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gantari&family=Smooch&display=swap');
 
 .header{
-    height: 34vw;
+    height: 20vw;
     background: url(/public/GradLoopBgGif.gif) no-repeat;
     background-size: cover;
     border-radius: 25px;
@@ -11,7 +11,7 @@
 }
 
 .header-contents{
-    margin-top: 17%;
+    margin-top: 5%;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -63,16 +63,25 @@
 }
 
 @media (max-width:1094px){
+    .header{
+        height: 30vw;
+    }
     .header-contents h2{
         font-size: 40px;
     }
 
     .header-contents{
-        margin-top: 15%;
+        margin-top: 8%;
     }
 }
 
 @media (max-width:750px){
+    .header{
+        height: 35vw;
+    }
+    .header-contents{
+        margin-top: 10%;
+    }
     .header-contents h2{
         font-size: 30px;
     }
@@ -86,7 +95,7 @@
     }
 
     .header-contents button{
-        font-size: 13px;
+        font-size: 10px;
     }
 }
 
@@ -122,7 +131,7 @@
     }
 
     .header-contents{
-        margin-top: 22%;
+        margin-top: 12%;
         width: 100%;
     }
 
@@ -133,11 +142,12 @@
     .buttons{
         flex-direction: column;
         gap: 10px;
+        align-items: center;
     }
 
     .header-contents button{
         font-size: 9px;
-        width: 80px;
+        width: fit-content;
     }
     .header-contents p{
         font-size: 10px;
