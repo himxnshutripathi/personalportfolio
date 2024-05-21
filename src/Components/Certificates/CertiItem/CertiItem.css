@@ -1,0 +1,82 @@
+.CertiItem{
+    display: flex;
+    gap: 1vw;
+}
+
+.left{
+    border-right: 2px solid rgb(58, 58, 58);
+}
+
+.left img{
+    border-radius: 10px;
+    height: 15vw;
+    margin-right: 3vw;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7vw;
+    padding: 20px;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.right:hover{
+    background-color: rgba(83, 83, 83, 0.164);
+}
+
+.right h2{
+    color: rgb(94, 94, 94);
+}
+
+.right ul{
+    margin-left: 2vw;
+    list-style: square;
+}
+
+.buttons button{
+    border: 2px solid transparent;
+    color: white;
+    background-color: rgb(78, 78, 78);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.4vw 1.5vw;
+    font-size: max(0.3vw, 15px);
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.buttons button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+@media (max-width:750px){
+    .CertiItem{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left{
+        border-right: none;
+    }
+    .left img{
+        height: 40vw;
+    }
+    .right{
+        gap: 1.7vw;
+    }
+}
+
+@media (max-width:450px){
+    .right{
+        gap: 2vw;
+    }
+    .right ul li{
+        font-size: small;
+    }
+    .buttons button{
+        padding: 0.8vw 2vw;
+        font-size: max(0.3vw, 13px);
+    }
+}
