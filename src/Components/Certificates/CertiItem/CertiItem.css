@@ -73,13 +73,13 @@
         gap: 2vw;
     }
     .right h2{
-        font-size: small;
+        font-size: 16px;
     }
     .right h3{
-        font-size: small;
+        font-size: 14px;
     }
     .right ul li{
-        font-size: small;
+        font-size: smaller;
     }
     .buttons button{
         padding: 0.8vw 2vw;
