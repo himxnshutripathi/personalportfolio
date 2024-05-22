@@ -1,0 +1,138 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.title{
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+}
+
+.below-title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 7.5vw;
+    padding-top: 30px;
+}
+
+.projects-item{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 27%;
+}
+
+.projects-item-img{
+    overflow: hidden;
+    height: 75%;
+}
+
+.projects-item-img img{
+    width: 100%;
+    margin: auto;
+    display: block;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+.projects-item-cont{
+    margin:15px 0px 15px;
+}
+
+.projects-item-cont H6{
+    color: rgba(75, 75, 75, 0.657);
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.projects-item-cont p{
+    padding-top: 10px;
+    padding-bottom: 13px;
+    font-size: 16px;
+}
+
+.button-contain{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.button{
+    border: 2px solid transparent;
+    color: white;
+    background-color: rgb(78, 78, 78);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.4vw 1.5vw;
+    font-size: max(0.3vw, 15px);
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+@media (max-width:1050px){
+    .projects-item-cont p{
+        font-size: 13px;
+    }
+
+    .projects-item-cont H2{
+        font-size: 20px;
+    }
+
+    .button{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:750px){
+    .title{
+        font-size: 3.5vw;
+    }
+
+    .below-title{
+        flex-direction: column;}
+
+    .projects-item{
+        width: 100%;
+    }
+    .projects-item-cont p{
+        font-size: 16px;
+    }
+    .projects-item-cont H2{
+        font-size: 30px;
+    }
+    .button{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:450px){
+    .projects{
+        margin-top: 10px;
+    }
+    .title{
+        font-size: 3.5vw;
+    }
+
+    .projects-item-cont H2{
+        font-size: 20px;
+    }
+
+    .projects-item-cont p{
+        font-size: 12px;
+    }
+    .button{
+        font-size: 10px;
+    }
+}

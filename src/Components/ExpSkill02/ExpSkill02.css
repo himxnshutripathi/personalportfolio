@@ -1,0 +1,103 @@
+.ExpSkill02{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    border-radius: 20px;
+}
+
+.ExpSkill02 h2{
+    font-size: 2vw;
+    margin: 2vw;
+    margin-left: 4vw;
+}
+
+.ExpSkill02-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    overflow-x: scroll;
+    margin-bottom: 3vw;
+}
+
+.ExpSkill02-list::-webkit-scrollbar{
+    display: none;
+}
+
+.ExpSkill02-list-item{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    height: 20vw;
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.ExpSkill02-list-item:hover video{
+    filter: none;
+}
+
+.ExpSkill02-list-item-vid{
+    height: 100%;
+    width: 15vw;
+    position: relative;
+}
+
+.ExpSkill02-list-item-vid video{ 
+    margin: auto; 
+    display: block;
+    border-radius: 10px;
+    filter: grayscale();
+}
+
+.ExpSkill02-list-item-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 11vw;
+}
+
+.ExpSkill02-list-item-contents a{
+    font-size: 5vw;
+    margin-left: 2vw;
+}
+
+.ExpSkill02-list-item-contents p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media (max-width:450px){
+    .ExpSkill02 h2{
+        font-size: 7vw;
+        margin: auto;
+    }
+    .ExpSkill02-list{
+        flex-direction: column;
+    }
+    .ExpSkill02-list-item{
+        height: 65vw;
+        width: 45vw;
+    }
+    .ExpSkill02-list-item-vid video{ 
+        filter: none;
+    }
+    .ExpSkill02-list-item-contents{
+        gap: 35vw;
+    }
+    .ExpSkill02-list-item-contents a{
+        font-size: 15vw;
+        margin-left: 2vw;
+    }
+    
+    .ExpSkill02-list-item-contents p{
+        font-size: 15px;
+        margin-left: 5vw;
+    }
+}
