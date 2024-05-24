@@ -6,7 +6,7 @@ const ExpSkill02 = () => {
 
   return (
     <div className='ExpSkill02' id='ExpSkill02'>
-        <h2>Skill Set</h2>
+        <h2>Ask me about</h2>
         <div className="ExpSkill02-list">
             {skill_list_01.map((skill, index)=>{
                 return (
