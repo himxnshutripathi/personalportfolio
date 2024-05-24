@@ -168,9 +168,9 @@ export const skill_list_02 = [
         skill_vid: skillVid02
     },
     {
-        skill_name: "Boot Strap",
-        skill_link: 'https://getbootstrap.com/docs/4.1/getting-started/introduction/',
-        skill_ext: ".bts",
+        skill_name: "TypeScript",
+        skill_link: 'https://www.typescriptlang.org/',
+        skill_ext: ".tsx",
         skill_vid: skillVid06
     },
     {
