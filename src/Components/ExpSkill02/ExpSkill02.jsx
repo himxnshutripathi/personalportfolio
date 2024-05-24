@@ -12,7 +12,7 @@ const ExpSkill02 = () => {
                 return (
                     <div key={index} className='ExpSkill02-list-item'>
                         <div className="ExpSkill02-list-item-vid">
-                            <video height="100%" autoplay muted loop>
+                            <video height="100%" autoplay="autoplay" muted loop>
                                 <source src={skill.skill_vid} type='video/mp4'/>
                             </video>
                         </div>
