@@ -1,7 +1,7 @@
 import React from "react";
 import "./Certificates.css";
 import CertiItem from "./CertiItem/CertiItem";
-import { Certi01, Certi02, Certi03, Certi04 } from "../../assets/assets";
+import { Certi01, Certi02, Certi03, Certi04, Certi05 } from "../../assets/assets";
 
 const Certificates = () => {
   return (
@@ -45,6 +45,16 @@ const Certificates = () => {
         l1={Certi03[4]}
         l2={Certi03[5]}
         l3={Certi03[6]}
+      />
+
+      <CertiItem
+        img={Certi05[0]}
+        date={Certi05[2]}
+        name={Certi05[1]}
+        link={Certi05[3]}
+        l1={Certi05[4]}
+        l2={Certi05[5]}
+        l3={Certi05[6]}
       />
     </div>
   );
