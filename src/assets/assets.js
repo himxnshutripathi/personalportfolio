@@ -31,6 +31,7 @@ import CertiImg01 from './Certi01.png'
 import CertiImg02 from './Certi02.png'
 import CertiImg03 from './Certi03.png'
 import CertiImg04 from './Certi04.png'
+import CertiImg05 from './Certi05.png'
 
 export const Certi01 = [
     CertiImg01,
@@ -70,6 +71,16 @@ export const Certi04 = [
     "Learn Python 3 basics, from the basics to more advanced concepts like lists and functions.",
     "Practice and become skilled at solving problems and fixing errors in your code.",
     "Gain the ability to write programs that fetch data from internet APIs and extract useful information."
+]
+
+export const Certi05 = [
+    CertiImg05,
+    'Certified Python Developer Associate PDAC-24',
+    'May, 2024',
+    'https://drive.google.com/file/d/1jLKGBBpUhYdWPHkWzFhj1zzLR0SCGD_8/view?usp=sharing',
+    "Python 3 basics and core Concepts",
+    "-",
+    "-"
 ]
 
 export const assExp = {
