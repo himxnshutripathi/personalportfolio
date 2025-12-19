@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assExp.logo}/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptates odio soluta earum, numquam sequi!</p>
+                <p>It's Himanshu Tripathi is my Personal Portfolio Website depicting my skillset and associated achievements in the Computer Science Spectrum. With the contact details and way out to reach me it facilitates the recruiter or the vistor on this website.</p>
                 <div className="footer-social-icon">
                     <a href="https://www.linkedin.com/in/himxnshutripathi/" target='_blank'><img src={assExp.linkedin_ico}/></a>
                     <a href="mailto:tripathi.himanshu9329@gmail.com" target='_blank'><img src={assExp.gmail_ico} /></a>
@@ -37,5 +37,6 @@ const Footer = () => {
     </div>
   )
 }
+
 
 export default Footer
