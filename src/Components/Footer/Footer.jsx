@@ -27,7 +27,6 @@ const Footer = () => {
             <div className="footer-content-right">
                 <h2>Get in Touch</h2>
                 <ul>
-                    <li><a href="tel:+91 7009728086">+91-70*******6</a></li>
                     <li><a href="mailto:tripathi.himanshu9329@gmail.com">tripathi.himanshu9329@gmail.com</a></li>
                 </ul>
             </div>
@@ -40,3 +39,4 @@ const Footer = () => {
 
 
 export default Footer
+
