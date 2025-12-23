@@ -27,7 +27,8 @@ const Footer = () => {
             <div className="footer-content-right">
                 <h2>Get in Touch</h2>
                 <ul>
-                    <li><a href="mailto:tripathi.himanshu9329@gmail.com">tripathi.himanshu9329@gmail.com</a></li>
+                    <li><a href="mailto:tripathi.himanshu9329@gmail.com">Mail</a></li>
+                    <li><a href="https://www.linkedin.com/in/himxnshutripathi/">Linkedin</a></li>
                 </ul>
             </div>
         </div>
@@ -39,4 +40,5 @@ const Footer = () => {
 
 
 export default Footer
+
 
