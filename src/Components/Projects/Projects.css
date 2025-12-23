@@ -26,6 +26,11 @@
     width: 27%;
 }
 
+.projects-item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.5)
+}
+
 .projects-item-img{
     overflow: hidden;
     height: 75%;
@@ -43,7 +48,7 @@
 }
 
 .projects-item-cont{
-    margin:15px 0px 15px;
+    margin:15px 15px 15px;
 }
 
 .projects-item-cont H6{
@@ -135,4 +140,5 @@
     .button{
         font-size: 10px;
     }
+
 }
