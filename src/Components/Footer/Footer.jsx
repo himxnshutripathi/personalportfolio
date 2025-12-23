@@ -28,7 +28,7 @@ const Footer = () => {
                 <h2>Get in Touch</h2>
                 <ul>
                     <li><a href="mailto:tripathi.himanshu9329@gmail.com">Mail</a></li>
-                    <li><a href="https://www.linkedin.com/in/himxnshutripathi/">Linkedin</a></li>
+                    <li><a href="https://www.linkedin.com/in/himxnshutripathi/" target='_blank'>Linkedin</a></li>
                 </ul>
             </div>
         </div>
@@ -40,5 +40,6 @@ const Footer = () => {
 
 
 export default Footer
+
 
 
