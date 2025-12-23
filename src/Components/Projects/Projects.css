@@ -28,6 +28,7 @@
 
 .projects-item:hover{
     transform: scale(1.05);
+    transition: 0.5s;
     box-shadow: 0 0 20px rgba(48, 48, 48, 0.5)
 }
 
@@ -142,3 +143,4 @@
     }
 
 }
+
